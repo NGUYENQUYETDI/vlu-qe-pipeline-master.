@@ -12,7 +12,7 @@ function login(username, password) {
     throw new Error('Mật khẩu không được chứa ký tự đặc biệt');
   }
 
-  if (username === 'admin' && password === '123') {
+  if (username === 'admin' && password === '9999') {
     return true;
   }
 
